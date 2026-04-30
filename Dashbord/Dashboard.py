@@ -13,7 +13,7 @@ def get_aggregated_df(df, groupby_col, agg_dict, mapping=None):
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("main_data.csv")
+    df = pd.read_csv("Dashboard/main_data.csv")
     df["dteday"] = pd.to_datetime(df["dteday"])
     df.sort_values(by="dteday", inplace=True)
     return df
