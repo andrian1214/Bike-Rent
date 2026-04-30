@@ -1,1 +1,0 @@
-https://bike-rent-ixr.streamlit.app/
